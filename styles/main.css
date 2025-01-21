@@ -11,14 +11,21 @@
 }
 
 /* Shared Style Start Here*/
+.primary-btn {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  width: 197px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #111;
+}
 /* Shared Style End Here */
 
 /* Header Start Here */
 
 /* Navbar style Start Here */
-.navbar-2 {
-  display: none;
-}
+
 .navbar-1 {
   width: 1440px;
   margin: 0 auto;
@@ -86,7 +93,39 @@ a {
   border: none;
 }
 
+/* Hero Section Style Start Here */
+.banner {
+  width: 1440px;
+  margin: 0 auto 60px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.banner-title {
+  color: #111;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 61px;
+  margin-bottom: 24px;
+}
+.empowering {
+  color: #fea301;
+}
+.towards-vision {
+  color: #01acfd;
+}
+.banner-sub-title {
+  color: #111;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
 /* For mobile responsive */
+.navbar-2 {
+  display: none;
+}
 .nav-2-left img,
 .nav-2-right img {
   width: 46px;
@@ -97,6 +136,21 @@ a {
 /* Header Style End Here */
 
 /* Main Start Style Start */
+/* Sec-1 Style Start Here */
+.sec-1-main {
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 60px auto;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid grey;
+}
+marquee {
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 /* Main Style End Here */
 
 /* Footer Style Start Here */
@@ -112,6 +166,31 @@ a {
     justify-content: space-between;
     align-items: center;
     border: 0.5px solid #fea301;
+  }
+  .banner {
+    width: 100%;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .banner .left-content {
+    order: 2;
+  }
+  .banner .right-content {
+    order: 1;
+  }
+  .banner-title, .banner-sub-title {
+    text-align: center;
+  }
+  br {
+    display: none;
+  }
+  .button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-right-img {
+    width: 100%;
   }
 }
 /* Mobile Responsive Styles End Here */
