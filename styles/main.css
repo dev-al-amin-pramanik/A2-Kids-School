@@ -1,117 +1,117 @@
 /* Font: Quicksand */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Font: Raleway */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Shared Style Start Here */
+/* Shared Style Start Here*/
 /* Shared Style End Here */
 
-/* Header Style Here */
+/* Header Start Here */
 
-/* Navbar Style Here */
+/* Navbar style Start Here */
 .navbar-2 {
-    display: none;
+  display: none;
 }
 .navbar-1 {
-    width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0px;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
 }
 .nav-left-content {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
 }
 .logo-title {
-    color: #111;
-    font-size: 2rem;
-    font-weight: 700;
+  color: #111;
+  font-size: 2rem;
+  font-weight: 700;
 }
 li {
-    list-style: none;
+  list-style: none;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .nav-middle-content ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
 }
 .nav-middle-home {
-    color: #fea301;
-    font-size: 1.25rem;
-    font-weight: 700;
+  color: #fea301;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 .nav-middle-about {
-    color: #01acfd;
-    font-size: 1.25rem;
-    font-weight: 500;
+  color: #01acfd;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 .nav-middle-facilities {
-    color: #05d4df;
-    font-size: 1.25rem;
-    font-weight: 500;
+  color: #05d4df;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 .nav-middle-admission {
-    color: #5d58ef;
-    font-size: 1.25rem;
-    font-weight: 500;
+  color: #5d58ef;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 .nav-right-content {
-    display: flex;
-    justify-content: end;
-    align-items: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 .nav-right-content button {
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: 600;
-    width: 197px;
-    padding: 10px;
-    border-radius: 12px;
-    background: #fea301;
-    border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  width: 197px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #fea301;
+  border: none;
 }
 
-/* For Mobile Responsive */
+/* For mobile responsive */
 .nav-2-left img,
 .nav-2-right img {
-    width: 46px;
-    height: 46px;
-    margin: 10px;
+  width: 46px;
+  height: 46px;
+  margin: 10px;
 }
 
 /* Header Style End Here */
 
-/* Main Style Start Here*/
+/* Main Start Style Start */
 /* Main Style End Here */
 
 /* Footer Style Start Here */
 /* Footer Style End Here */
 
-/* Mobile Responsive Style Start Here */
+/* Mobile Responsive Styles Start Here */
 @media screen and (max-width: 576px) {
-    .navbar-1 {
-        display: none;
-    }
-    .navbar-2 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border: 0.5px solid #fea301;
-    }
-    
+  .navbar-1 {
+    display: none;
+  }
+  .navbar-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5px solid #fea301;
+  }
 }
+/* Mobile Responsive Styles End Here */
