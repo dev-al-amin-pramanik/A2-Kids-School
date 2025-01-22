@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 
-/* Shared Style Start */
+/* Shared Style Start Here */
 .primary-btn {
   color: #fff;
   font-size: 1.25rem;
@@ -25,11 +25,11 @@
 .img-border-radius {
   border-radius: 16px 16px 0px 0px;
 }
-/* Shared Style End */
+/* Shared Style End Here */
 
-/* Header Start */
+/* Header Style Start Here */
 
-/* Navbar style */
+/* Navbar style Start Here */
 
 .navbar-1 {
   width: 1440px;
@@ -139,11 +139,11 @@ a {
   margin: 10px;
 }
 
-/* Header End */
+/* Header End Here */
 
 /* Main Start */
-/* Section - 1 Style */
-.section-1-main {
+/* Sec - 1 Style Start Here */
+.sec-1-main {
   width: 1440px;
   height: 100px;
   display: flex;
@@ -157,27 +157,27 @@ marquee {
   font-size: 2rem;
   font-weight: 600;
 }
-/* Section - 2 Style */
-.section-2-main {
+/* Sec - 2 Style Start Here */
+.sec-2-main {
   background-image: url("./assets/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 0;
 }
-.section-2-title-div {
+.sec-2-title-div {
   width: 1440px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.section-2-title {
+.sec-2-title {
   color: #000;
   text-align: center;
   font-size: 2.875rem;
   font-weight: 700;
 }
-.section-2-card-div {
+.sec-2-card-div {
   width: 1440px;
   margin: 80px auto;
   display: flex;
@@ -186,7 +186,7 @@ marquee {
   padding: 60px 0;
   background: transparent;
 }
-.section-2-card-1 {
+.sec-2-card-1 {
   display: flex;
   width: 367.805px;
   height: 476.784px;
@@ -201,7 +201,7 @@ marquee {
     #fff;
   box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
 }
-.section-2-card-1-title {
+.sec-2-card-1-title {
   width: 100%;
   height: 31.125px;
   color: #202020;
@@ -209,7 +209,7 @@ marquee {
   font-size: 1.533rem;
   font-weight: 700;
 }
-.section-2-card-1-sub-title {
+.sec-2-card-1-sub-title {
   color: #808080;
   text-align: center;
   font-family: Raleway;
@@ -225,7 +225,7 @@ marquee {
   font-size: 15.091px;
   font-weight: 700;
 }
-.section-2-card-2 {
+.sec-2-card-2 {
   display: flex;
   width: 367.805px;
   height: 481.5px;
@@ -240,7 +240,7 @@ marquee {
     #fff;
   box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
 }
-.section-2-card-2-title {
+.sec-2-card-2-title {
   width: 100%;
   height: 31.125px;
   color: #202020;
@@ -248,7 +248,7 @@ marquee {
   font-size: 1.533rem;
   font-weight: 700;
 }
-.section-2-card-2-sub-title {
+.sec-2-card-2-sub-title {
   color: #808080;
   text-align: center;
   font-family: Raleway;
@@ -264,7 +264,7 @@ marquee {
   font-size: 15.091px;
   font-weight: 700;
 }
-.section-2-card-3 {
+.sec-2-card-3 {
   display: flex;
   width: 367.805px;
   height: 476.784px;
@@ -279,7 +279,7 @@ marquee {
     #fff;
   box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
 }
-.section-2-card-3-title {
+.sec-2-card-3-title {
   width: 100%;
   height: 31.125px;
   color: #202020;
@@ -287,7 +287,7 @@ marquee {
   font-size: 1.533rem;
   font-weight: 700;
 }
-.section-2-card-3-sub-title {
+.sec-2-card-3-sub-title {
   color: #808080;
   text-align: center;
   font-family: Raleway;
@@ -303,7 +303,7 @@ marquee {
   font-size: 15.091px;
   font-weight: 700;
 }
-.section-2-btn {
+.sec-2-btn {
   width: 1440px;
   margin: 0 auto;
   display: flex;
@@ -311,8 +311,8 @@ marquee {
   align-items: center;
   gap: 10px;
 }
-.section-2-btn1,
-.section-2-btn2 {
+.sec-2-btn1,
+.sec-2-btn2 {
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -326,8 +326,8 @@ marquee {
   cursor: pointer;
 }
 
-/* Section - 3 Style */
-.section-3-main {
+/* Sec - 3 Style Start Here */
+.sec-3-main {
   width: 100%;
   background: url("./assets/bg.png") 0% 0% / 100px 100px repeat,
     linear-gradient(
@@ -339,76 +339,76 @@ marquee {
   background-size: cover;
   padding: 60px 0;
 }
-.section-3-title {
+.sec-3-title {
   color: #000;
   text-align: center;
   font-size: 2.875rem;
   font-weight: 700;
 }
-.section-3-title-div {
+.sec-3-title-div {
   width: 1440px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.section-3-item-center {
+.sec-3-item-center {
   width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.section-3-container {
+.sec-3-container {
   width: 1440px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 2fr, 1fr, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
-    "section-3-item-1 section-3-item-2 section-3-item-3"
-    "section-3-item-1 section-3-item-4 section-3-item-5";
+    "sec-3-item-1 sec-3-item-2 sec-3-item-3"
+    "sec-3-item-1 sec-3-item-4 sec-3-item-5";
   justify-content: center;
   align-content: center;
   padding: 80px 0;
   gap: 40px;
 }
-.section-3-item-1 {
-  grid-area: section-3-item-1;
+.sec-3-item-1 {
+  grid-area: sec-3-item-1;
   border-radius: 16px;
   background: #fff;
   width: 540.267px;
   height: 630.518px;
 }
-.section-3-item-2 {
-  grid-area: section-3-item-2;
+.sec-3-item-2 {
+  grid-area: sec-3-item-2;
   width: 290.693px;
   border-radius: 16px;
   background: #fff;
   justify-self: start;
 }
-.section-3-item-3 {
-  grid-area: section-3-item-3;
+.sec-3-item-3 {
+  grid-area: sec-3-item-3;
   width: 290.693px;
   border-radius: 16px;
   background: #fff;
   justify-self: start;
 }
-.section-3-item-4 {
-  grid-area: section-3-item-4;
+.sec-3-item-4 {
+  grid-area: sec-3-item-4;
   width: 290.693px;
   border-radius: 16px;
   background: #fff;
   justify-self: start;
 }
-.section-3-item-5 {
-  grid-area: section-3-item-5;
+.sec-3-item-5 {
+  grid-area: sec-3-item-5;
   width: 290.693px;
   border-radius: 16px;
   background: #fff;
   justify-self: start;
 }
-.section-3-btn-1 {
+.sec-3-btn-1 {
   position: relative;
   top: -30px;
   width: 180px;
@@ -424,7 +424,7 @@ marquee {
   border: none;
   margin-bottom: 20px;
 }
-.section-3-btn-2 {
+.sec-3-btn-2 {
   width: 175px;
   height: 38.347px;
   color: #fff;
@@ -440,7 +440,7 @@ marquee {
   position: relative;
   top: -20px;
 }
-.section-3-btn-3 {
+.sec-3-btn-3 {
   width: 175px;
   height: 38.347px;
   color: #fff;
@@ -456,7 +456,7 @@ marquee {
   position: relative;
   top: -20px;
 }
-.section-3-btn-4 {
+.sec-3-btn-4 {
   width: 180px;
   height: 38.347px;
   color: #fff;
@@ -472,7 +472,7 @@ marquee {
   position: relative;
   top: -20px;
 }
-.section-3-btn-5 {
+.sec-3-btn-5 {
   width: 175px;
   height: 38.347px;
   color: #fff;
@@ -488,13 +488,13 @@ marquee {
   position: relative;
   top: -20px;
 }
-.section-3-item-1-title {
+.sec-3-item-1-title {
   color: #000;
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 30px;
 }
-.section-3-item-2-title {
+.sec-3-item-2-title {
   color: #000;
 
   font-size: 15.339px;
@@ -502,29 +502,29 @@ marquee {
   font-weight: 700;
   line-height: 28.761px;
 }
-.section-3-item-1-sub-title {
+.sec-3-item-1-sub-title {
   color: #666;
   font-family: Raleway;
   font-size: 0.959rem;
   font-weight: 500;
   line-height: 28.761px;
 }
-.section-3-item-1-content {
+.sec-3-item-1-content {
   margin: 0 40px;
 }
-.section-3-item-2-content {
+.sec-3-item-2-content {
   margin: 0 20px;
 }
-.section-3-last-btn-div {
+.sec-3-last-btn-div {
   width: 1440px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* Main End */
+/* Main End Here */
 
-/* Footer Start */
+/* Footer Start Here */
 footer {
   background-color: #01acfd;
   height: auto;
@@ -587,9 +587,8 @@ footer {
   font-size: 1.5rem;
   color: #000;
   text-align: center;
-  margin-bottom: 20px;
 }
-/* Footer End */
+/* Footer End  Here*/
 
 /* Mobile Responsive Styles Start */
 @media screen and (max-width: 576px) {
@@ -628,60 +627,60 @@ footer {
   .banner-right-img {
     width: 100%;
   }
-  .section-1-main {
+  .sec-1-main {
     display: none;
   }
-  .section-2-main,
-  .section-2-card-div {
+  .sec-2-main,
+  .sec-2-card-div {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .section-2-card-div {
+  .sec-2-card-div {
     margin: 20px 0;
     gap: 15px;
     padding: 0 20px;
   }
-  .section-2-title-div {
+  .sec-2-title-div {
     width: 100%;
   }
-  .section-2-main {
+  .sec-2-main {
     padding: 40px 0;
   }
-  .section-2-btn {
+  .sec-2-btn {
     display: none;
   }
-  .section-2-card-1,
-  .section-2-card-2,
-  .section-2-card-3 {
+  .sec-2-card-1,
+  .sec-2-card-2,
+  .sec-2-card-3 {
     width: 100%;
   }
-  .section-3-container {
+  .sec-3-container {
     grid-template-columns: repeat(2, 100px, 100px);
     padding: 20px;
     width: 100%;
     column-gap: 10px;
   }
-  .section-3-item-1 {
+  .sec-3-item-1 {
     display: none;
   }
-  .section-3-title-div {
+  .sec-3-title-div {
     width: 100%;
     margin-bottom: 20px;
   }
-  .section-3-item-2,
-  .section-3-item-3,
-  .section-3-item-4,
-  .section-3-item-5 {
+  .sec-3-item-2,
+  .sec-3-item-3,
+  .sec-3-item-4,
+  .sec-3-item-5 {
     width: 90%;
     justify-self: center;
   }
-  .section-3-img {
+  .sec-3-img {
     width: 100%;
   }
-  .section-3-last-btn-div {
+  .sec-3-last-btn-div {
     width: 100%;
     margin-top: 20px;
   }
