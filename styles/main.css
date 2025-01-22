@@ -592,6 +592,9 @@ footer {
 
 /* Mobile Responsive Styles Start */
 @media screen and (max-width: 576px) {
+  marquee {
+    animation-duration: 8s;
+  }
   .navbar-1 {
     display: none;
   }
